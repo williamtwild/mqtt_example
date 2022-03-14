@@ -1,0 +1,23 @@
+{
+    "broker":{
+        "user":"your_username",
+        "password":"your_password",
+        "address":"brokerhost.com",
+        "port":1883,
+        "subscriptions": { "rosemont":"production/+/processed/+/FFFF002531059D4F/#",
+                            "partridge":"production/+/processed/+/partridge_meadows_1/#"}
+    },
+
+    "worker-core":{
+        "object-name":"Example",
+        "name":"ion-example-worker",
+        "description":"example for ion",
+        "admin_email_api_url":"localhost:5000"
+    },
+
+    "worker-specific":{
+        "worker_specific_config":"none"
+    }
+
+
+}
