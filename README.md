@@ -1,5 +1,5 @@
 # mqtt_example
-Example mqtt worker library using paho
+Example mqtt worker library using paho for MQTT 3.1
 
 python single_leaf_example.py 
 
